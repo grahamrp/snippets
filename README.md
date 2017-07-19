@@ -3,6 +3,7 @@
 My [RStudio code snippets](http://blog.rstudio.org/2015/04/13/rstudio-v0-99-preview-code-snippets/), which can be installed using the [snippr](https://github.com/dgrtwo/snippr) package as follows:
 
 ```
+devtools::install_github("dgrtwo/snippr")
 library(snippr)
 snippets_install_github("grahamrp/snippets")
 ```
